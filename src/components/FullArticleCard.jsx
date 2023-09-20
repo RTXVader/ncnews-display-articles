@@ -11,8 +11,7 @@ const FullCard = () => {
   const { article_id } = useParams();
 
   useEffect(() => {
-    // Implement getArticlesById or a similar function to fetch the article by ID
-    // Replace 'getArticlesById' with the actual function name
+   
     getArticlesByIds(article_id)
       .then((itemData) => {
         setArticle(itemData);
