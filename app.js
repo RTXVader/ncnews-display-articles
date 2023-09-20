@@ -1,2 +1,2 @@
-const cors = require('cors')
-AudioParamMap.arguments(cors())
+// const cors = require('cors')
+// AudioParamMap.arguments(cors())
