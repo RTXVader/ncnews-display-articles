@@ -37,7 +37,7 @@ const Topic = () => {
     <img src={article.article_img_url}/>
     <p>{article.author}</p>
           <p>{article.date}</p>
-         <form action={`http://localhost:5173/articles/${article.article_id}`}>
+         <form action={`https://reliable-conkies-efec20.netlify.app/articles/${article.article_id}`}>
     <input type="submit" value="Read More" />
     </form>
          </div>

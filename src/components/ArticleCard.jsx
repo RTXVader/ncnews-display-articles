@@ -13,7 +13,7 @@ const Card = ({ articles }) => {
           <p>{article.author}</p>
           <p>{article.date}</p>
           {/* <button>Read More</button> */}
-          <form action={`http://localhost:5173/articles/${article.article_id}`}>
+          <form action={`https://reliable-conkies-efec20.netlify.app/articles/${article.article_id}`}>
     <input type="submit" value="Read More" />
 </form>
         </div>
